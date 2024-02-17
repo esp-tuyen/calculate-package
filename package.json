@@ -1,10 +1,15 @@
 {
-  "name": "@tuyen/calculate",
+  "name": "tuyen-calculate",
   "version": "1.0.1",
   "description": "This is test package",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.ts",
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/esp-tuyen/calculate/issues"
   },
-  "homepage": "https://github.com/esp-tuyen/calculate#readme"
+  "homepage": "https://github.com/esp-tuyen/calculate#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
 }
