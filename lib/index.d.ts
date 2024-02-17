@@ -1,9 +1,7 @@
 export type SumProps = number;
-declare const _default: {
-    sum: (numbers: number[]) => number;
-    plus: (a: number, b: number) => number;
-    minus: (a: number, b: number) => number;
-    multiplication: (a: number, b: number) => number;
-    division: (a: number, b: number) => number;
-};
-export default _default;
+declare const sum: (numbers: SumProps[]) => number;
+declare const plus: (a: number, b: number) => number;
+declare const minus: (a: number, b: number) => number;
+declare const multiplication: (a: number, b: number) => number;
+declare const division: (a: number, b: number) => number;
+export { division, minus, multiplication, plus, sum };

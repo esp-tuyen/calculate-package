@@ -11,4 +11,4 @@ const multiplication = (a: number, b: number) => a * b;
 
 const division = (a: number, b: number) => a / b;
 
-export default { sum, plus, minus, multiplication, division };
+export { division, minus, multiplication, plus, sum };
