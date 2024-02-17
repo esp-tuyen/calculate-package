@@ -8,7 +8,7 @@
     "lib"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "rm -rf lib && rollup -c --bundleConfigAsCjs"
   },
   "repository": {
     "type": "git",
